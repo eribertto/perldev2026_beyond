@@ -1,0 +1,30 @@
+severity = 3
+verbose  = %f:%l:%c [%p] %m\n
+theme    = core
+
+[-ValuesAndExpressions::ProhibitVersionStrings]
+[-InputOutput::RequireCheckedSyscalls]
+
+[TestingAndDebugging::RequireUseStrict]
+severity = 5
+
+[TestingAndDebugging::RequireUseWarnings]
+severity = 5
+
+[Modules::RequireEndWithOne]
+severity = 4
+
+[Subroutines::ProhibitBuiltinHomonyms]
+severity = 3
+
+[Subroutines::ProhibitExcessComplexity]
+severity = 3
+max_elsif = 2
+max_children = 20
+
+[NamingConventions::Capitalization]
+severity = 2
+
+[-InputOutput::ProhibitBacktickOperators]
+
+[-ErrorHandling::RequireCarping]
